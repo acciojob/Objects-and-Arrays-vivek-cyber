@@ -6,6 +6,15 @@ const person = {
 };
 
 // Write your code here, make sure the name of variables is exactly same as mentioned in the problem statement
+team=players
+let team1=[]
+for(let i=0;i<palyers.length;i++)
+	{
+		team1.push(players[i])
+	}
+
+
+let cap1 = Object.assign({}, person)
 
 window.players = players;
 window.person = person;
